@@ -10,8 +10,8 @@ env:
   ### Replace <username> with GitHub username ###
   ### i already did this step above ###
   ###############################################
-  DOCKER_IMAGE_NAME: boriAjDev-azure-ttt
-  AZURE_WEBAPP_NAME: boriAjDev-ttt-app
+  DOCKER_IMAGE_NAME: boriajdev-azure-ttt
+  AZURE_WEBAPP_NAME: boriajdev-ttt-app
   ###############################################
 
 jobs:
@@ -24,6 +24,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: npm install and build webpack
         run: |
+          export NODE_OPTIONS=--openssl-legacy-provider
           npm install
           npm run build
       - uses: actions/upload-artifact@v3
