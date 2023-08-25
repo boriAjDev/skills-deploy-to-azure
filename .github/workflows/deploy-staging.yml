@@ -8,6 +8,7 @@ env:
   IMAGE_REGISTRY_URL: ghcr.io
   ###############################################
   ### Replace <username> with GitHub username ###
+  ### i already did this step above ###
   ###############################################
   DOCKER_IMAGE_NAME: boriAjDev-azure-ttt
   AZURE_WEBAPP_NAME: boriAjDev-ttt-app
