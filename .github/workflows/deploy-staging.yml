@@ -11,7 +11,7 @@ env:
   ### i already did this step above ###
   ###############################################
   DOCKER_IMAGE_NAME: boriAjDev-azure-ttt
-  AZURE_WEBAPP_NAME: boriAjDev-ttt-app
+  AZURE_WEBAPP_NAME: boriajdev-ttt-app
   ###############################################
 
 jobs:
